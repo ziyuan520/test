@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DF03B161F1B9C05003D728F /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B0C1F1B9C05003D728F /* task.cpp */; };
-		0DF03B171F1B9C05003D728F /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B0E1F1B9C05003D728F /* model.cpp */; };
-		0DF03B181F1B9C05003D728F /* mainwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B101F1B9C05003D728F /* mainwindow.cpp */; };
-		0DF03B191F1B9C05003D728F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B111F1B9C05003D728F /* main.cpp */; };
-		0DF03B1A1F1B9C05003D728F /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B141F1B9C05003D728F /* controller.cpp */; };
+		0DF03B271F1B9CF1003D728F /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B1C1F1B9CF1003D728F /* task.cpp */; };
+		0DF03B281F1B9CF1003D728F /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B1E1F1B9CF1003D728F /* model.cpp */; };
+		0DF03B291F1B9CF1003D728F /* mainwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B201F1B9CF1003D728F /* mainwindow.cpp */; };
+		0DF03B2A1F1B9CF2003D728F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B211F1B9CF1003D728F /* main.cpp */; };
+		0DF03B2B1F1B9CF2003D728F /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B241F1B9CF1003D728F /* controller.cpp */; };
+		0DF03B2C1F1B9CF2003D728F /* adddialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF03B261F1B9CF1003D728F /* adddialog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,17 +29,18 @@
 
 /* Begin PBXFileReference section */
 		0DF03AFF1F1B98BE003D728F /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DF03B0B1F1B9C05003D728F /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = task.h; path = "../../../../Downloads/源文件/task.h"; sourceTree = "<group>"; };
-		0DF03B0C1F1B9C05003D728F /* task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = task.cpp; path = "../../../../Downloads/源文件/task.cpp"; sourceTree = "<group>"; };
-		0DF03B0D1F1B9C05003D728F /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = model.h; path = "../../../../Downloads/源文件/model.h"; sourceTree = "<group>"; };
-		0DF03B0E1F1B9C05003D728F /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = model.cpp; path = "../../../../Downloads/源文件/model.cpp"; sourceTree = "<group>"; };
-		0DF03B0F1F1B9C05003D728F /* mainwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainwindow.h; path = "../../../../Downloads/源文件/mainwindow.h"; sourceTree = "<group>"; };
-		0DF03B101F1B9C05003D728F /* mainwindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mainwindow.cpp; path = "../../../../Downloads/源文件/mainwindow.cpp"; sourceTree = "<group>"; };
-		0DF03B111F1B9C05003D728F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../Downloads/源文件/main.cpp"; sourceTree = "<group>"; };
-		0DF03B121F1B9C05003D728F /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = data.h; path = "../../../../Downloads/源文件/data.h"; sourceTree = "<group>"; };
-		0DF03B131F1B9C05003D728F /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = controller.h; path = "../../../../Downloads/源文件/controller.h"; sourceTree = "<group>"; };
-		0DF03B141F1B9C05003D728F /* controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = controller.cpp; path = "../../../../Downloads/源文件/controller.cpp"; sourceTree = "<group>"; };
-		0DF03B151F1B9C05003D728F /* adddialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adddialog.h; path = "../../../../Downloads/源文件/adddialog.h"; sourceTree = "<group>"; };
+		0DF03B1B1F1B9CF1003D728F /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task.h; sourceTree = "<group>"; };
+		0DF03B1C1F1B9CF1003D728F /* task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = task.cpp; sourceTree = "<group>"; };
+		0DF03B1D1F1B9CF1003D728F /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		0DF03B1E1F1B9CF1003D728F /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
+		0DF03B1F1F1B9CF1003D728F /* mainwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainwindow.h; sourceTree = "<group>"; };
+		0DF03B201F1B9CF1003D728F /* mainwindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainwindow.cpp; sourceTree = "<group>"; };
+		0DF03B211F1B9CF1003D728F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DF03B221F1B9CF1003D728F /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		0DF03B231F1B9CF1003D728F /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		0DF03B241F1B9CF1003D728F /* controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controller.cpp; sourceTree = "<group>"; };
+		0DF03B251F1B9CF1003D728F /* adddialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adddialog.h; sourceTree = "<group>"; };
+		0DF03B261F1B9CF1003D728F /* adddialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adddialog.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +73,18 @@
 		0DF03B011F1B98BE003D728F /* test */ = {
 			isa = PBXGroup;
 			children = (
-				0DF03B0B1F1B9C05003D728F /* task.h */,
-				0DF03B0C1F1B9C05003D728F /* task.cpp */,
-				0DF03B0D1F1B9C05003D728F /* model.h */,
-				0DF03B0E1F1B9C05003D728F /* model.cpp */,
-				0DF03B0F1F1B9C05003D728F /* mainwindow.h */,
-				0DF03B101F1B9C05003D728F /* mainwindow.cpp */,
-				0DF03B111F1B9C05003D728F /* main.cpp */,
-				0DF03B121F1B9C05003D728F /* data.h */,
-				0DF03B131F1B9C05003D728F /* controller.h */,
-				0DF03B141F1B9C05003D728F /* controller.cpp */,
-				0DF03B151F1B9C05003D728F /* adddialog.h */,
+				0DF03B1B1F1B9CF1003D728F /* task.h */,
+				0DF03B1C1F1B9CF1003D728F /* task.cpp */,
+				0DF03B1D1F1B9CF1003D728F /* model.h */,
+				0DF03B1E1F1B9CF1003D728F /* model.cpp */,
+				0DF03B1F1F1B9CF1003D728F /* mainwindow.h */,
+				0DF03B201F1B9CF1003D728F /* mainwindow.cpp */,
+				0DF03B211F1B9CF1003D728F /* main.cpp */,
+				0DF03B221F1B9CF1003D728F /* data.h */,
+				0DF03B231F1B9CF1003D728F /* controller.h */,
+				0DF03B241F1B9CF1003D728F /* controller.cpp */,
+				0DF03B251F1B9CF1003D728F /* adddialog.h */,
+				0DF03B261F1B9CF1003D728F /* adddialog.cpp */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -143,11 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF03B161F1B9C05003D728F /* task.cpp in Sources */,
-				0DF03B171F1B9C05003D728F /* model.cpp in Sources */,
-				0DF03B1A1F1B9C05003D728F /* controller.cpp in Sources */,
-				0DF03B191F1B9C05003D728F /* main.cpp in Sources */,
-				0DF03B181F1B9C05003D728F /* mainwindow.cpp in Sources */,
+				0DF03B271F1B9CF1003D728F /* task.cpp in Sources */,
+				0DF03B2C1F1B9CF2003D728F /* adddialog.cpp in Sources */,
+				0DF03B281F1B9CF1003D728F /* model.cpp in Sources */,
+				0DF03B2B1F1B9CF2003D728F /* controller.cpp in Sources */,
+				0DF03B2A1F1B9CF2003D728F /* main.cpp in Sources */,
+				0DF03B291F1B9CF1003D728F /* mainwindow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
